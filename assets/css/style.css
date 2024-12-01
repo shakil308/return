@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* common css end  */
+
+.exchange-wrapper {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+.exchange-title {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.exchange-heading {
+    padding-top: 90px;
+}
+
+.exchange-content {
+    max-width: 840px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.exchange-content p > a {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+.footwear-policy {
+    margin-top: 30px;
+}
+
+.footwear-policy span,
+.return-policy span,
+.exchange-policy span,
+.domestic-policy span,
+.int-policy span {
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+.return-policy {
+    margin-top: 70px;
+}
+
+.policy-terms-list li {
+    margin-bottom: 20px;
+}
+
+.return-policy p,
+.exchange-policy p,
+.domestic-policy p,
+.int-policy p {
+    margin-bottom: 35px;
+}
